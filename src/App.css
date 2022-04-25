@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  width: 50%;
+  margin: auto;
+  height: 50px;
+  padding-top: 10px;
+  color: white;
+  margin-bottom: 10px;
+  background-color: rgb(32, 31, 31);
+ 
+}
+.nav-home,.nav-list,.nav-admin,.nav-login,.nav-logout{
+text-decoration: none;
+
+border-radius: 5px;
+margin: 5%;
+color: rgb(251, 251, 251);
+
+}
+.home{
+  border: 5px solid red;
+  width: 40%;
+  font-size: 23px;
+  font-weight: 700;
+  margin: auto;
+  height: 300px;
+}
+.home>div>span{
+  margin: 20%;
+  font-size: bold;
+}
+.home>div{
+  margin: 5%;
+}
+.list_container{
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(6,1fr);
+  border: 1px solid;
+  gap:20px;
+}
+.employee_card{
+  margin: auto;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+.employee_card >img{
+  width: 100%;
+
+}
+.user_details{
+  margin: auto;
+  width: 40%;
+  border: 1px solid red;
+ 
+display: grid;
+grid-template-columns: repeat(1,1fr);
+}
+.user_details > img{
+  width: 40%;
+  margin: auto;
+}
+.user_details >button{
+  margin: auto;
+  background-color: rgb(31, 31, 31);
+  width: 300px;
+ 
+  border-radius: 5px;
+  color: aliceblue;
+  height: 30px;
+
+}
